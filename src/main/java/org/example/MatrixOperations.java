@@ -16,10 +16,7 @@ public class MatrixOperations {
     private static Scanner scanner = new Scanner(System.in);
     private static Random random = new Random();
 
-    /**
-     * Головний метод програми
-     * @param args аргументи командного рядка
-     */
+
     public static void main(String[] args) {
         System.out.println("Програма для роботи з матрицями");
 
@@ -49,11 +46,7 @@ public class MatrixOperations {
         System.out.printf("Середнє геометричне: %.2f\n", geometricMean);
     }
 
-    /**
-     * Зчитування розміру матриці з перевіркою обмежень
-     * @param message повідомлення для користувача
-     * @return розмір матриці
-     */
+
     private static int readMatrixDimension(String message) {
         int dimension;
         do {
@@ -66,12 +59,7 @@ public class MatrixOperations {
         return dimension;
     }
 
-    /**
-     * Створення матриці вручну або випадковим чином
-     * @param rows кількість рядків
-     * @param cols кількість стовпців
-     * @return створена матриця
-     */
+
     private static int[][] createMatrix(int rows, int cols) {
         int[][] matrix = new int[rows][cols];
 
@@ -113,10 +101,7 @@ public class MatrixOperations {
         return matrix;
     }
 
-    /**
-     * Виведення матриці на екран
-     * @param matrix матриця для виведення
-     */
+
     private static void printMatrix(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -126,11 +111,7 @@ public class MatrixOperations {
         }
     }
 
-    /**
-     * Пошук мінімального елемента в матриці
-     * @param matrix матриця для пошуку
-     * @return мінімальний елемент
-     */
+
     private static int findMinElement(int[][] matrix) {
         int min = matrix[0][0];
         for (int i = 0; i < matrix.length; i++) {
@@ -143,11 +124,7 @@ public class MatrixOperations {
         return min;
     }
 
-    /**
-     * Пошук максимального елемента в матриці
-     * @param matrix матриця для пошуку
-     * @return максимальний елемент
-     */
+
     private static int findMaxElement(int[][] matrix) {
         int max = matrix[0][0];
         for (int i = 0; i < matrix.length; i++) {
@@ -160,11 +137,7 @@ public class MatrixOperations {
         return max;
     }
 
-    /**
-     * Розрахунок середнього арифметичного елементів матриці
-     * @param matrix матриця для розрахунку
-     * @return середнє арифметичне
-     */
+
     private static double calculateArithmeticMean(int[][] matrix) {
         long sum = 0;
         int count = 0;
@@ -179,11 +152,7 @@ public class MatrixOperations {
         return (double) sum / count;
     }
 
-    /**
-     * Розрахунок середнього геометричного елементів матриці
-     * @param matrix матриця для розрахунку
-     * @return середнє геометричне
-     */
+
     private static double calculateGeometricMean(int[][] matrix) {
         // Для уникнення переповнення використовуємо логарифмічний підхід
         double sumLogs = 0;
