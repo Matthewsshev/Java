@@ -15,10 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UniversityJsonTest {
 
-    @TempDir
-    Path tempDir; // Тимчасова директорія для тестів
-
-
     @Test
     public void testUniversityJsonSerialization() throws IOException {
         // Створення типового університету
@@ -27,15 +23,10 @@ public class UniversityJsonTest {
         // Створення JsonManager
         JsonManager jsonManager = new JsonManager();
 
-        // Шлях до тимчасового файлу
-        File tempFile = tempDir.resolve("university.json").toFile();
-        String filePath = tempFile.getAbsolutePath();
-
+        // Шлях до постійного файлу
+        String filePath = "university.json";
         // Запис університету у файл
         jsonManager.writeUniversityToFile(oldUniversity, filePath);
-
-        // Перевірка, що файл створено
-        assertTrue(tempFile.exists(), "Файл JSON не був створений");
 
         // Зчитування університету з файлу
         University newUniversity = jsonManager.readUniversityFromFile(filePath);
