@@ -1,0 +1,166 @@
+{
+  "faculties": [
+    {
+      "departments": [
+        {
+          "groups": [
+            {
+              "students": [
+                {
+                  "studentId": "CS-101-001",
+                  "firstName": "Robert",
+                  "lastName": "Wilson",
+                  "middleName": "Thomas",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "CS-101-002",
+                  "firstName": "Sarah",
+                  "lastName": "Taylor",
+                  "middleName": "Emma",
+                  "sex": "FEMALE"
+                }
+              ],
+              "name": "CS-101",
+              "head": {
+                "firstName": "David",
+                "lastName": "Brown",
+                "middleName": "Andrew",
+                "sex": "MALE"
+              }
+            },
+            {
+              "students": [
+                {
+                  "studentId": "CS-102-001",
+                  "firstName": "Kevin",
+                  "lastName": "Anderson",
+                  "middleName": "James",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "CS-102-002",
+                  "firstName": "Rachel",
+                  "lastName": "Martinez",
+                  "middleName": "Grace",
+                  "sex": "FEMALE"
+                }
+              ],
+              "name": "CS-102",
+              "head": {
+                "firstName": "Jessica",
+                "lastName": "Miller",
+                "middleName": "Louise",
+                "sex": "FEMALE"
+              }
+            }
+          ],
+          "name": "Department of Programming",
+          "head": {
+            "firstName": "Emily",
+            "lastName": "Davis",
+            "middleName": "Elizabeth",
+            "sex": "FEMALE"
+          }
+        },
+        {
+          "groups": [
+            {
+              "students": [
+                {
+                  "studentId": "CE-101-001",
+                  "firstName": "Ryan",
+                  "lastName": "Clark",
+                  "middleName": "Michael",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "CE-101-002",
+                  "firstName": "Lauren",
+                  "lastName": "Lewis",
+                  "middleName": "Sophia",
+                  "sex": "FEMALE"
+                }
+              ],
+              "name": "CE-101",
+              "head": {
+                "firstName": "Amanda",
+                "lastName": "Harris",
+                "middleName": "Claire",
+                "sex": "FEMALE"
+              }
+            }
+          ],
+          "name": "Department of Computer Engineering",
+          "head": {
+            "firstName": "Christopher",
+            "lastName": "Thompson",
+            "middleName": "Daniel",
+            "sex": "MALE"
+          }
+        }
+      ],
+      "name": "Faculty of Computer Science",
+      "head": {
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "middleName": "Robert",
+        "sex": "MALE"
+      }
+    },
+    {
+      "departments": [
+        {
+          "groups": [
+            {
+              "students": [
+                {
+                  "studentId": "MG-101-001",
+                  "firstName": "Jennifer",
+                  "lastName": "Garcia",
+                  "middleName": "Marie",
+                  "sex": "FEMALE"
+                },
+                {
+                  "studentId": "MG-101-002",
+                  "firstName": "Thomas",
+                  "lastName": "Rodriguez",
+                  "middleName": "Henry",
+                  "sex": "MALE"
+                }
+              ],
+              "name": "MG-101",
+              "head": {
+                "firstName": "Mark",
+                "lastName": "Green",
+                "middleName": "Steven",
+                "sex": "MALE"
+              }
+            }
+          ],
+          "name": "Department of Management",
+          "head": {
+            "firstName": "Daniel",
+            "lastName": "White",
+            "middleName": "Joseph",
+            "sex": "MALE"
+          }
+        }
+      ],
+      "name": "Faculty of Economics",
+      "head": {
+        "firstName": "Elizabeth",
+        "lastName": "Roberts",
+        "middleName": "Anne",
+        "sex": "FEMALE"
+      }
+    }
+  ],
+  "name": "Stanford University",
+  "head": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "middleName": "William",
+    "sex": "MALE"
+  }
+}
